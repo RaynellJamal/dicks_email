@@ -1,0 +1,221 @@
+<mjml>
+  <mj-head>
+    <mj-style>
+      * {
+        box-sizing: border-box;
+        font-family: Helvetica, Arial;
+      }
+    </mj-style>
+
+    <mj-style inline="inline">
+      .bg-white {
+        background-color: #ffffff;
+      }
+
+      .rating {
+        padding: 5px 115px 0;
+      }
+
+      .icons {
+        padding: 0px 135px 0;
+      }
+
+      .links {
+        padding: 5px 135px 0;
+      }
+
+      .link-color {
+        color: #81BEFE;
+      }
+    </mj-style>
+  </mj-head>
+
+  <mj-body background-color="#D3D3D3">
+    <mj-raw>
+      <!--   Header logo -->
+    </mj-raw>
+    <mj-section padding="0" css-class="bg-white">
+      <mj-column padding="10px" align="center" width="200px">
+        <mj-image src="https://i.ibb.co/mRfQfjj/logo.png" alt="Dick's logo" />
+      </mj-column>
+    </mj-section>
+
+    <mj-raw>
+      <!-- Hero Image -->
+    </mj-raw>
+    <mj-section padding="0" css-class="bg-white">
+      <mj-column>
+        <mj-text align="center" font-size="16px">
+          <h1>Your package is arriving soon!</h1>
+        </mj-text>
+      </mj-column>
+    </mj-section>
+
+    <mj-section padding="0" css-class="bg-white">
+      <mj-column width="500px">
+        <mj-image src="https://i.ibb.co/dWZM1JP/truck.gif" alt="truck gif" />
+      </mj-column>
+    </mj-section>
+
+    <mj-raw>
+      <!-- Track Package  -->
+    </mj-raw>
+    <mj-section padding="0" css-class="bg-white">
+      <mj-column padding="5px">
+        <mj-text align="left" font-size="14px" color="#808080">
+          Order #: 30097238162 | Order date: Jun 7, 2023
+        </mj-text>
+      </mj-column>
+    </mj-section>
+
+    <mj-section padding="0" css-class="bg-white">
+      <mj-column padding="5px">
+        <mj-text align="left" font-size="16px" color="#5A5A5A">
+          Hi RAYNELL,
+        </mj-text>
+        <mj-spacer height="15px" />
+        <mj-text align="left" font-size="16px" color="#5A5A5A" line-height="1.5">
+          Your package is scheduled to be delivered within the next 1-2 business days. Your package is being delivered to:
+        </mj-text>
+        <mj-spacer height="15px" />
+        <mj-text align="left" font-size="16px" color="#5A5A5A" line-height="1.5">
+          120 N 13th Ave Apt D, Upland, CA 91786-5584
+        </mj-text>
+        <mj-spacer height="10px" />
+        <mj-button width="100%" border-radius="0" font-size="18px" background-color="#CC5500">
+          TRACK PACKAGE
+        </mj-button>
+      </mj-column>
+    </mj-section>
+
+    <mj-raw>
+      <!-- In this Packagae -->
+    </mj-raw>
+    <mj-section padding="0" background-color="#C7DEDB">
+      <mj-column padding="8px" width="100%">
+        <mj-text align="center" font-size="18px">
+          In This Package
+        </mj-text>
+      </mj-column>
+    </mj-section>
+
+    <mj-section padding="10px" css-class="bg-white">
+      <mj-column width="200px" align="left">
+        <mj-image src="https://i.ibb.co/PFW1tNL/shoe.webp" alt="Ari Jordan 6 Red Suede shoe" />
+      </mj-column>
+      <mj-column padding="0" width="380px">
+        <mj-text padding="0px" align="left" font-size="13px" line-height=".75">
+          <h3>Air Jordan 6 Retro Basketball Shoes</h3>
+          <p style="color:#9B9B9B">Color: Varsity Red/Black</p>
+          <p style="color:#9B9B9B">Quantity: 1</p>
+          <p style="color:#9B9B9B">Price: $199.99</p>
+        </mj-text>
+      </mj-column>
+    </mj-section>
+
+    <mj-raw>
+      <!-- Divider -->
+    </mj-raw>
+    <mj-section padding="35px" css-class="bg-white">
+      <mj-divider border-color="#B3B3B3" border-width="1px" />
+    </mj-section>
+
+    <mj-raw>
+      <!-- Survey -->
+    </mj-raw>
+    <mj-section padding="0" css-class="bg-white">
+      <mj-column>
+        <mj-text align="center" font-size="11.5px" color="#666666">
+          <h2>Please rate your satisfaction with the clarity of communication about your order.</h2>
+        </mj-text>
+      </mj-column>
+    </mj-section>
+
+    <mj-section padding="0" css-class="bg-white">
+      <mj-column>
+        <mj-text align="center"  font-size="14px" color="#276354">
+          Highly Dissatisfied
+        </mj-text>
+      </mj-column>
+      <mj-column >
+        <mj-text align="center" font-size="14px" color="#276354">
+          Highly Satisfied
+        </mj-text>
+      </mj-column>
+    </mj-section>
+
+    <mj-section padding="5px 0 25px" css-class="bg-white">
+      <mj-group align="center" css-class="rating">
+        <mj-column>
+          <mj-image padding="0" align="center" href="https://survey.medallia.com/?dsg-sth-comms&banner=dsg_web_dsg&email=A&transaction_id=30097238162&tracking_id=399329826058&carrier=FedEx&brand=1&sub_brand=4&score=1" src="https://i.ibb.co/WPFNmhX/one.png" alt="number one" width="50px" />
+        </mj-column>
+        <mj-column>
+          <mj-image padding="0" align="center" href="https://survey.medallia.com/?dsg-sth-comms&banner=dsg_web_dsg&email=A&transaction_id=30097238162&tracking_id=399329826058&carrier=FedEx&brand=1&sub_brand=4&score=2" src="https://i.ibb.co/42zbC9d/two.png" alt="number two" width="50px" />
+        </mj-column>
+        <mj-column>
+          <mj-image padding="0" align="center" href="https://survey.medallia.com/?dsg-sth-comms&banner=dsg_web_dsg&email=A&transaction_id=30097238162&tracking_id=399329826058&carrier=FedEx&brand=1&sub_brand=4&score=3" src="https://i.ibb.co/JqPQRs4/three.png" alt="number three" width="50px" />
+        </mj-column>
+        <mj-column>
+          <mj-image padding="0" align="center" href="https://survey.medallia.com/?dsg-sth-comms&banner=dsg_web_dsg&email=A&transaction_id=30097238162&tracking_id=399329826058&carrier=FedEx&brand=1&sub_brand=4&score=4" src="https://i.ibb.co/Fbf4kLT/four.png" alt="number four" width="50px" />
+        </mj-column>
+        <mj-column>
+          <mj-image padding="0" href="https://survey.medallia.com/?dsg-sth-comms&banner=dsg_web_dsg&email=A&transaction_id=30097238162&tracking_id=399329826058&carrier=FedEx&brand=1&sub_brand=4&score=5" src="https://i.ibb.co/HnwVdt6/five.png" alt="number five" width="50px" />
+        </mj-column>
+      </mj-group>
+    </mj-section>
+
+    <mj-raw>
+      <!-- Footer -->
+    </mj-raw>
+
+    <mj-section padding="20px" background-color="#F9F9F9">
+      <mj-group css-class="icons">
+        <mj-column>
+          <mj-image padding="0" src="https://i.ibb.co/RN4KdQS/facebook.png" alt="facebook" href="https://www.facebook.com/dickssportinggoods" alt="facebook" width="30px" />
+        </mj-column>
+        <mj-column>
+          <mj-image padding="0" src="https://i.ibb.co/qCsq5Nq/twitter.png" alt="facebook" href="https://twitter.com/dicks" alt="twitter" width="30px" />
+        </mj-column>
+        <mj-column>
+          <mj-image padding="0" src="https://i.ibb.co/rZLzxSy/instagram.png" alt="facebook" href="https://twitter.com/dicks" alt="instagram" width="30px" />
+        </mj-column>
+        <mj-column>
+          <mj-image padding="0" src="https://i.ibb.co/Hpq0Ng0/pinterest.png" alt="facebook" href="https://www.pinterest.com/dickssportinggoods/" alt="pintrest" width="30px" />
+        </mj-column>
+        <mj-column>
+          <mj-image padding="0" src="https://i.ibb.co/hYhcSFb/youtube.png" alt="facebook" href="https://www.youtube.com/user/DicksSportingGoods" alt="youtube" width="30px" />
+        </mj-column>
+      </mj-group>
+    </mj-section>
+
+    <mj-section padding="10px" background-color="#F9F9F9">
+      <mj-group css-class="links">
+        <mj-column width="100%">
+          <mj-text align="center"
+           font-size="11px">
+            <a href="https://www.dickssportinggoods.com/s/policy/privacy-policy?camp=EML:DSG_TRN:11062020_ReadyToGo:Narvar_DeliveryEmail&customerkey=&mcid=&AthleteID=">Privact Policy</a>
+          </mj-text>
+        </mj-column>
+        <mj-column width="100%">
+          <mj-text align="center" padding="5px" font-size="12px">
+            <a href="https://www.dickssportinggoods.com/s/return-policy#return-policy?camp=EML:DSG_TRN:11062020_ReadyToGo:Narvar_DeliveryEmail&customerkey=&mcid=&AthleteID=">Returns & Exchanges</a>
+          </mj-text>
+        </mj-column>
+      </mj-group>
+    </mj-section>
+
+    <mj-section padding="20px" background-color="#F9F9F9">
+      <mj-column>
+        <mj-text align="center" line-height=".5" font-size="12px">
+          <h2>DICK’S Sporting Goods</h2>
+          <p>345 Court Street, Coraopolis, PA 15108 </p>
+          <a href="https://www.dickssportinggoods.com/s/help-desk?camp=EML:DSG_TRN:11062020_ReadyToGo:Narvar_DeliveryEmail&customerkey=&mcid=&AthleteID=">Contact Us</a>
+        </mj-text>
+      </mj-column>
+    </mj-section>
+
+    <mj-section padding="0" background-color="#D3D3D3">
+    </mj-section>
+
+  </mj-body>
+</mjml>
